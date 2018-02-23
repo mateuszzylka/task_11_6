@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+	font-family: 'Oswald', sans-serif;
+	background-color: #55efc4;
+}
+
+* {
+	box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.board {
+	width: 1200px;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.board h1 {
+	font-size: 4em;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	color: #636e72;
+}
+
+.create-column {
+	padding: 10px;
+	cursor: pointer;
+	background-color: #fff;
+	color: #636e72;
+	font-size: 1.5em;
+	border-radius: 5px;
+	border: 2px solid #636e72;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.create-column:hover {
+	color: #fff;
+	background-color: #636e72;
+	-webkit-transform: scale(1.10);
+	-moz-transform: scale(1.10);
+	-ms-transform: scale(1.10);
+	transform: scale(1.10);
+}
+
+.column {
+	width: 30%;
+	margin: 0 1%;
+	float: left;
+	border: 2px solid #84817a;
+	min-height: 300px;
+	background: #d1ccc0;
+	box-shadow: 8px 8px 5px #84817a;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.column-title {
+	text-align: center;
+	text-transform: uppercase;
+	color: #4b4b4b;
+	font-size: 2em;
+	background-color: #fff;
+	margin: -10px -10px;
+}
+
+.column-card-list {
+	list-style-type: none;
+	min-height: 200px;
+  	padding: 5px;
+}
+
+button {
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	background-color: #fff;
+}
+
+.btn-delete {
+	float: right;
+	margin: -35px -2px;
+	font-size: 1.2em;
+}
+
+li .btn-delete {
+	margin : -1px 3px;
+}
+
+.add-card {
+	margin: 20px 10px;
+	text-align: center;
+	padding: 10px;
+	color: #636e72;
+	border: 1px solid #636e72;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.add-card:hover {
+	color: #fff;
+	background-color: #636e72;
+}
+
+.card {
+  margin: 20px;
+  background-color: #fff;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.card-placeholder {
+	background-color: #fff;
+	min-height: 50px;
+	border-radius: 5px;
+}
